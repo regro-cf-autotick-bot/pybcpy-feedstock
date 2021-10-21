@@ -1,5 +1,5 @@
 {% set name = "pybcpy" %}
-{% set version = "0.0.16" %}
+{% set version = "0.0.17" %}
 
 
 package:
@@ -8,8 +8,8 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 97a28020f443aee4edbcd514bfa3257d7ee055e87c5864b918c92bdc645de0be
-  patches: 
+  sha256: 1bbf0360fffa6fd1c13a1f783373b22a85e70c97f323c4342fe89cce615a813d
+  patches:
     - setup.patch
 
 build:
